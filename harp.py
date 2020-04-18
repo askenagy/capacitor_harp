@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 
-# Simple test of the capacitive touch sensor library mpr121
-
-# Will print out a message when any of the 12 capacitive touch inputs of the board are touched.
-# Open the serial REPL after running to see the output.
-
 import adafruit_mpr121
 import board
 import busio
